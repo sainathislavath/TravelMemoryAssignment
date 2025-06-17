@@ -285,8 +285,8 @@ This installs all required packages listed in package.json to ensure the backend
     listen 443 ssl;
     server_name kmgtm.info www.kmgtm.info;
 
-    ssl_certificate /etc/letsencrypt/live/api.kmgtm.info/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/api.kmgtm.info/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/api.sainath.life/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/api.sainath.life/privkey.pem;
     root /home/ubuntu/TravelMemory/frontend/build;
     index index.html;
 
